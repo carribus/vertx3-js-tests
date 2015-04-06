@@ -10,4 +10,8 @@ and functionality that has been built into vert.x 3.
 
 * Singleton objects - PASS
 * Modified config - FAIL
-* NPM module usage - IN PROGRESS
+    * Should be using a local shared map to achieve this
+    * See Julien Viet's reply here: https://groups.google.com/forum/?fromgroups=#!topic/vertx/OjSkhAFO1QE
+* NPM module usage - IN PROGRESS (currently failed)
+    * Using colors module as I thought that would be a simple, nice example
+    * Seems that vert.x's process object needs some work

@@ -1,0 +1,14 @@
+{
+  "name": "npm-module-color",
+  "version": "1.0.0",
+  "description": "TEST: vert.x usage of the colors module from node by marak (https://www.npmjs.com/package/colors)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Mares",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.0.3"
+  }
+}
